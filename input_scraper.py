@@ -51,6 +51,20 @@ for tbody in tbodies:
         name = th.text.strip()
         # Find the <td> element that contains the metadata value
         td = tr.find("td")
-# Jane Yowela ended here 
+# Jane Yowela ended here
+
+# Francis Munganga started here
+        # If the metadata name is "Title"
+        if name == "Title":
+            # Find the <span> element that contains the language of the title metadata
+            lang_span = td.find("span", class_="badge grey-badge")
+            # Get the text of the <span> element and strip any whitespace
+            lang = lang_span.text.strip()
+            # Find the <span> element that contains the name of the title metadata
+            title_span = td.find("span", class_="col-md-11")
+            # Get the text of the <span> element and strip any whitespace
+            title = title_span.text.strip()
+# Francis Munganga ended here
+            
 
 
