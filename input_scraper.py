@@ -68,3 +68,17 @@ for tbody in tbodies:
             
 
 
+
+# Isaac Shapi started here 
+
+  # Add the metadata name, language, and value to the item dictionary
+            item[name] = (lang, title)
+        # If the metadata name is "Submission type" or "Document type"
+        elif name in ["Submission type", "Document type"]:
+            # Find the <span> element that contains the submission type or document type metadata value
+            span = td.find("span")
+            # Get the text of the <span> element and strip any whitespace
+            value = span.text.strip()
+            # Add the metadata name and value to the item dictionary
+            item[name] = value
+# Isaac Shapi ended here            
