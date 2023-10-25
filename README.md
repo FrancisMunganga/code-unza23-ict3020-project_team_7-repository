@@ -25,7 +25,7 @@ This project is aimed at automating the process scraping data from the Archive O
 #### Step 7: A message will be displayed to notify the user that the scraping process is done and the data has been saved as "Metadata.csv" in the "Downloads" folder.
 
 ## Caution
-This software is currently a feasibility prototype still undergoing change and improvement. Hence, there might be minor errors in the scraping process that will be worked as more requirements are discovered.
+This software is currently a feasibility prototype still undergoing change and improvement. Hence, there might be minor errors in the scraping process that will be worked on as more requirements are discovered.
 
 ## Issues 
 Feel free to open an issue if you have any problem using this web application.
