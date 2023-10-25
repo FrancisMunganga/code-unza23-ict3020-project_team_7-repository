@@ -39,7 +39,7 @@ def scrape():
 
 #Isaac Shapi started editing here 
 
- for tag in meta:
+        for tag in meta:
             if 'name' in tag.attrs.keys() and tag.attrs['name'].strip().lower() in ['author', 'publication', 'title', 'doi', 'date', 'description']:
                 name = tag.attrs['name'].lower()
                 value = tag.attrs['content']
