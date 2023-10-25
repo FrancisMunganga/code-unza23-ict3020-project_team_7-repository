@@ -66,5 +66,19 @@ def scrape():
                 <br>
 
                 <p>Enter the URL of the website you want to scrape metadata from in the form below:</p>
-#Noel ended here
+# Noel ended here
+
+
+# Francis began here
+                <form method="POST">
+                    URL: <input type="text" name="url"><br>
+                    <br>
+                    <input type="submit" value="Scrape"><br>
+                </form>
+            </body>
+        </html>
+    '''
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
