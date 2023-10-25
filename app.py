@@ -50,19 +50,27 @@ def scrape():
 #Jane started here
 
                 csv_writer.writerow([name, value]) 
-        return "Metadata has been saved to {}".format(filename)
+        return "Scraping process complete! Metadata has been saved to {}".format(filename)
 
     return '''
 
         <html>
             <body style="text-align: center;">
-                <p style="line-height: 2.0;">Welcome to Web Scraper! This tool allows you to scrape metadata such as "Author, Publication, Title, DOI, Date, Description" from digital libraries and save these metadata as a CSV file. Simply enter the URL of the website you want to scrape in the form below and click "Scrape". Please note that the effectiveness of the scraper may vary depending on the structure of the website. Always ensure that you have permission to scrape a website before doing so.</p>
+                <p style="line-height: 2.0;"><h1>Welcome to Web Scraper!</h1> 
+                    <br>
+                    <hr>
+                    This web application allows you to scrape metadata such as "Author, Publication, Title, DOI, Date, Description" from digital libraries and save these metadata as a CSV file. 
+                    <br>
+                    Simply enter the <strong>URL</strong> of the webpage you wish to scrape in the form below and click "Scrape". 
+                    <br>
+                    <strong>CAUTION:</strong> The effectiveness of the scraper may vary depending on the structure of the website. Always ensure that you have permission to scrape a website before doing so.
+                </p>
 
                 <br>
                 <hr>
                 <br>
 
-                <p>Enter the URL of the website you want to scrape metadata from in the form below:</p>
+                <p>Enter the URL of the webpage you wish to scrape metadata from in the form below:</p>
                 <form method="POST">
                     URL: <input type="text" name="url"><br>
                     <br>
