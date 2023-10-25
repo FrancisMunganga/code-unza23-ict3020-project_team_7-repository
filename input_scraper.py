@@ -37,6 +37,20 @@ for tbody in tbodies:
     # Create an empty dictionary to store the metadata of one item
 
     item = {}
+# Noel Simpemba ended here
 
 
-# Noel Simpemba ended here     
+# Jane Yowela started here
+ # Find all the <tr> elements that contain the metadata name and value
+    trs = tbody.find_all("tr")
+    # Loop through each <tr> element
+    for tr in trs:
+        # Find the <th> element that contains the metadata name
+        th = tr.find("th")
+        # Get the text of the <th> element and strip any whitespace
+        name = th.text.strip()
+        # Find the <td> element that contains the metadata value
+        td = tr.find("td")
+# Jane Yowela ended here 
+
+
