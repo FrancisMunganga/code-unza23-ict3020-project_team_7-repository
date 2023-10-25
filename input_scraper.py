@@ -81,4 +81,23 @@ for tbody in tbodies:
             value = span.text.strip()
             # Add the metadata name and value to the item dictionary
             item[name] = value
-# Isaac Shapi ended here            
+# Isaac Shapi ended here    
+ 
+
+
+# Jane Yowela started here 
+    # Append the item dictionary to the data list
+    data.append(item)
+
+# Create a pandas DataFrame from the data list
+df = pd.DataFrame(data)
+
+# Save the DataFrame as a CSV file
+df.to_csv("metadata.csv", index=False)
+
+# Find all the links to PDF files on the webpage
+pdf_links = soup.find_all("a", href=lambda href: href and href.endswith(".pdf"))
+
+# Loop through each link
+for link in pdf_links:
+# Jane Yowela ended here    
