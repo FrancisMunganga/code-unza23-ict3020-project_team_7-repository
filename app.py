@@ -55,8 +55,6 @@ def scrape():
     return '''
 # Jane ended here
 
-
-# Noel started here
         <html>
             <body style="text-align: center;">
                 <p style="line-height: 2.0;">Welcome to Web Scraper! This tool allows you to scrape metadata such as "Author, Publication, Title, DOI, Date, Description" from digital libraries and save these metadata as a CSV file. Simply enter the URL of the website you want to scrape in the form below and click "Scrape". Please note that the effectiveness of the scraper may vary depending on the structure of the website. Always ensure that you have permission to scrape a website before doing so.</p>
@@ -66,10 +64,6 @@ def scrape():
                 <br>
 
                 <p>Enter the URL of the website you want to scrape metadata from in the form below:</p>
-# Noel ended here
-
-
-# Francis began here
                 <form method="POST">
                     URL: <input type="text" name="url"><br>
                     <br>
