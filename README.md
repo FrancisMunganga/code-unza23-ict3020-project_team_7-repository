@@ -18,7 +18,7 @@ This project is aimed at automating the process scraping data from the Archive O
 
 #### Step 4: A command line interface window shall open that will provide the URL the Digilib Auto-Scraper web application is running on. Hold "CTRL" + left click(mouse) and you shall be redirected to the website to begin the scraping process.
 
-####  Step 5: To begin the scraping process, enter the URL of the webpage you wish to scrape data from in the provision provided on the web application.
+####  Step 5: To begin the scraping process, enter the URL of the webpage from the Hal platfrom you wish to scrape data from in the provision provided on the web application.
 
 #### Step 6: Click on the "Scrape" button to initiate the scraping process.
 
