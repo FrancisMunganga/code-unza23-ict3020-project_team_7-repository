@@ -34,3 +34,13 @@ def scrape():
         filename = "metadata.csv"
         csv_writer = csv.writer(open(filename, 'w'))
 #Francis Munganga ended here 
+
+
+
+#Isaac Shapi started editing here 
+
+ for tag in meta:
+            if 'name' in tag.attrs.keys() and tag.attrs['name'].strip().lower() in ['author', 'publication', 'title', 'doi', 'date', 'description']:
+                name = tag.attrs['name'].lower()
+                value = tag.attrs['content']
+#Shapi ended here 
