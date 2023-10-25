@@ -44,3 +44,13 @@ def scrape():
                 name = tag.attrs['name'].lower()
                 value = tag.attrs['content']
 #Shapi ended here 
+
+
+
+#Jane started here
+
+                csv_writer.writerow([name, value]) 
+        return "Metadata has been saved to {}".format(filename)
+
+    return '''
+# Jane ended here
