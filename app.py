@@ -56,7 +56,7 @@ def scrape():
 
         <html>
             <body style="text-align: center;">
-                <p style="line-height: 2.0;"><h1>Welcome to Web Scraper!</h1> 
+                <p style="line-height: 2.0;"><h1>Welcome to DIGILIB AUTO-SCRAPER!</h1> 
                     <br>
                     <hr>
                     This web application allows you to scrape metadata such as "Author, Publication, Title, DOI, Date, Description" from digital libraries and save these metadata as a CSV file. 
