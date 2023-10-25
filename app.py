@@ -53,7 +53,6 @@ def scrape():
         return "Metadata has been saved to {}".format(filename)
 
     return '''
-# Jane ended here
 
         <html>
             <body style="text-align: center;">
